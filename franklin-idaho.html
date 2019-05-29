@@ -1,48 +1,69 @@
 <!doctype html>
 <html lang="en-us">
- <head>
-  <meta charset="UTF-8">
-  <title>Franklin, ID | Weather Site</title>
-  <meta name="description" content="franklin idaho weather.">
-  <meta name="viewport" content="width=device-width">
-  <nav>
-        <a href="index.html"> Home </a>
-        <p><a href="weatherplan.html"> Weather Plan</a></p>
-        <p><a href="franklin-idaho.html"> Franklin Weather site</a></p>
 
-  </nav>
- </head>
- <body>
-     <header> <img src="weather-site-images/logo.jpg" alt="weather site logo"> 
-        <p> The Weather Site</p></header>
+<head>
+    <meta charset="utf-8">
+    <title class="title">Franklin, ID | Weather Site</title>
+    <meta name="description" content="franklin idaho weather.">
+    <meta name="viewport" content="width=device-width">
+  
+    <link rel="stylesheet" type="text/css" href="CSS/screen.css" media="screen">
+
+</head>
+
+<body>
+    <header class="header"> <img src="weather-site-images/logo.jpg" alt="weather site logo" >
+        <h1>The Weather Site</h1> 
+    </header>
     <main>
-<section>
-    <h1>Franklin, Idaho</h1>
-    <ul>
-        <a href="."></a>
-        <li><strong>Zip:</strong> 83237</li>
-        <li><strong>Elevation:</strong> 1514.246 m</li>
-        <li><strong>Location:</strong> 111.79, 42.07</li>
-    </ul>
-    <h2>Temperature</h2>
-    <p>40</p>  
-    <p style="color:red;">High: 64 </P> <p style="color:blue;">Low: 41</p>
-    <p>Precipition: 0</p>
-    <h3>Wind</h3>
-    <img src="weather-site-images/wind-pointer.png" alt="wind-pointer">
-       <p>5 mph</p>
-       <ul>
-           <li><strong>Direction:</strong> SW</li>
-           <li><strong>Gusts:</strong> 10-12 mph</li>
-       </ul>
-       <h2>Rain</h2>
-       <img src="weather-site-images/rain.jpg" alt="rain" width="500" height="500">
-       <h3>Hourly Forecast</h3>
-      <p>9am: 41 | 10am: 41 | 11am: 41 | 12pm: 41 | 1pm: 41 | 2pm: 41 | 3pm: 42 | 4pm: 44 | 5pm: 44 | 6pm: 46 | 7pm: 49 | 8pm: 51 | 9pm: 55</p>
-</section>
+        <section class="border" id="info">
+            <h1>Franklin, Idaho</h1>
+            <ul>
+
+                <li><strong>Zip:</strong> 83237</li>
+                <li><strong>Elevation:</strong> 1514.246 m</li>
+                <li><strong>Location:</strong> 111.79, 42.07</li>
+            </ul>
+        </section>
+        <section class="border" id="temperature">
+            <h2>Temperature</h2>
+            <p>40</p>
+            <p style="color:red;">High: 64 </P>
+            <p style="color:blue;">Low: 41</p>
+            <p>Precipition: 0</p>
+        </section>
+        <section class="border" id="wind">
+            <h3>Wind</h3>
+            <img src="weather-site-images/wind-pointer.png" alt="wind-pointer">
+            <p> 5 mph</p>
+            <ul>
+                <li><strong>Direction:</strong> SW</li>
+                <li><strong>Gusts:</strong> 10-12 mph</li>
+            </ul>
+        </section>
+        <section class="border" id="weather-type">
+            <h2>Rain</h2>
+            <img src="weather-site-images/rain.jpg" alt="rain" width="500" height="500">
+        </section>
+            <section class="border" id="hourly">
+                <h3>Hourly Forecast</h3>
+                <p>9am: 41 | 10am: 41 | 11am: 41 | 12pm: 41 | 1pm: 41 | 2pm: 41 | 3pm: 42 | 4pm: 44 | 5pm: 44 | 6pm: 46
+                    | 7pm: 49 | 8pm: 51 | 9pm: 55</p>
+            </section>
+            
     </main>
     <footer>
-            <p>&copy; 2019 - The Weather Site</p>
-           </footer>
- </body>
+        <p>&copy; 2019 - The Weather Site</p>
+    </footer>
+    <nav>
+        <ul id = "style">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="weatherplan.html"> Weather Plan</a></li>
+            <li><a href="franklin-idaho.html"> Franklin Weather Site</a></li>
+
+        </ul>
+    </nav>
+   
+</body>
+
 </html>
