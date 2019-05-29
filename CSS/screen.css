@@ -1,0 +1,84 @@
+/* Imports
+2. General
+3. Mobile
+4. Larger(er) screens */
+
+/* Imports*/
+/*sansita from google fonts */
+@import url('https://fonts.googleapis.com/css?family=Sansita&display=swap');
+@import url('normalize.css');
+
+
+/* 2. General */
+.title{
+    text-align: center;
+    color:black;
+}
+.header{
+    display: flex;
+    background-color: blue;
+    color:black;
+    text-align: center;
+   
+}
+body{
+    font-size:20px;
+    font-family: helvetica, sans-serif;
+    text-align: center;
+    
+}
+h1, h2, h3, h4, h5, h6{
+font-family: Sansita, sans-serif;
+}
+
+p{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+  }
+  #info ul li{
+      margin-right: 10px;
+  }
+  #wind ul li{
+      margin-right: 10px;
+  }
+  #style{
+      display:flex;
+      margin: 50px;
+      background-color:lightblue;
+      
+  }
+  #style li{
+      margin-right: 10px;
+  }
+  #style a{
+      color:black;
+  }
+  li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+.border{
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+
+}
+.wind{
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+   background-color: blue;
+}
