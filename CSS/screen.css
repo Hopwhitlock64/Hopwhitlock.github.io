@@ -15,11 +15,31 @@
     color:black;
 }
 .header{
-    display: flex;
-    background-color: blue;
+    background-color: rgb(0, 140, 255);
     color:black;
+    display: flex;
     text-align: center;
    
+}
+
+#temperature{
+font-size: 2em;
+}
+#temp{
+    display: block;
+}
+#high{
+    color: red;
+}
+#low{
+    color: blue;
+}
+.background{
+    background-image: url(/weather/weather-site-images/rain.jpg)
+}
+#rain{
+    position: center;
+    width: 200px;
 }
 body{
     font-size:20px;
@@ -30,41 +50,27 @@ body{
 h1, h2, h3, h4, h5, h6{
 font-family: Sansita, sans-serif;
 }
-
 p{
     text-align: center;
 }
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-
-  }
-  #info ul li{
-      margin-right: 10px;
-  }
-  #wind ul li{
-      margin-right: 10px;
-  }
-  #style{
-      display:flex;
-      margin: 50px;
-      background-color:lightblue;
-      
-  }
-  #style li{
-      margin-right: 10px;
-  }
-  #style a{
-      color:black;
   }
   li{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+      display: inline-block;
+      margin:20px;
+  }
+  #hourly{
+      background-color: lightgray;
+      border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
     text-align: center;
+    overflow: scroll;
+ 
+   
   }
 .border{
     border-radius: 25px;
@@ -77,8 +83,30 @@ ul{
     border-radius: 25px;
     border: 2px solid black;
     padding: 20px;
+    position: relative;
     text-align: center;
 }
 footer{
-   background-color: blue;
+   background: rgb(0, 140, 255);
+}
+/* Mobile */
+.wind{
+    order: 3;
+    display: flex;
+flex-direction: column;
+}
+.temp{
+    order: 2;
+    display:flex;
+    flex-direction: row;
+}
+.nav{
+    background: rgb(0, 140, 255);
+}
+#style{
+    position: fixed;
+    color:white;
+    bottom: 0;
+    background:  rgb(0, 140, 255);
+    width: 100%;
 }
