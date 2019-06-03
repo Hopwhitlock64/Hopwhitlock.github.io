@@ -26,7 +26,7 @@
 font-size: 2em;
 }
 #temp{
-    display: block;
+    display: flex;
 }
 #high{
     color: red;
@@ -35,7 +35,7 @@ font-size: 2em;
     color: blue;
 }
 .background{
-    background-image: url(/weather/weather-site-images/rain.jpg)
+    background-image: url(weather/weather-site-images/rain.jpg)
 }
 #rain{
     position: center;
@@ -45,7 +45,7 @@ body{
     font-size:20px;
     font-family: helvetica, sans-serif;
     text-align: center;
-    
+    justify-content: center;
 }
 h1, h2, h3, h4, h5, h6{
 font-family: Sansita, sans-serif;
@@ -88,16 +88,14 @@ footer{
 }
 /* Mobile */
 .wind{
-    order: 3;
-    display: flex;
-flex-direction: column;
+    flex-flow: column;
 }
 .temp{
-    order: 2;
-    display:flex;
+    flex-flow: column;
 }
 .nav{
     background: rgb(0, 140, 255);
+    display: flex;
 }
 #style{
     position: fixed;
