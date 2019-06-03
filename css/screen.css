@@ -27,6 +27,7 @@ font-size: 2em;
 }
 #temp{
     color:black;
+    text-align:center;
 }
 #high{
     color: red;
