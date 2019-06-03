@@ -35,7 +35,7 @@ font-size: 2em;
     color: blue;
 }
 .background{
-    background-image: url(weather/weather-site-images/rain.jpg)
+    background-image: url(../weather/weather-site-images/rain.jpg);
 }
 #rain{
     position: center;
