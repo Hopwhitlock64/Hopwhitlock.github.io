@@ -1,46 +1,41 @@
-@media (min-width: 66.7em) {
+
 
 body {
 	font-size: 1.5vw;
 }
-.main {
-	max-width: 80%;
-	padding-right: 2em;
-	padding-left: 2em;
-}
 }
 .rain{
-	margin: 0 1em 1em 0;
+	margin:0 1em 1em 0;
 			float: left;
-			width: 50%;
+			width: 50%
 	}
 	.cloud{
 		margin: 0 1em 1em 0;
 			float: left;
-			width: 50%;
+			width: 50%
+			
 	}
 	.fog{
-		margin: 0 1em 1em 0;
+		margin: 0 1em 1em 0 ;
+		height: 300px;
 			float: left;
-			width: 50%;
+			width: 50%
+			
 	}
+
 	.snow{
 		margin: 0 1em 1em 0;
 			float: left;
-			width: 50%;
+			width: 50%
+			
 	}
 	.clear{
 		margin: 0 1em 1em 0;
 			float: left;
-			width: 50%;
+
+			width: 50%
 	}
-	.main {
-		font-size: 1em;
-		line-height: 1.25;
-		margin: 0 auto;
-		position: relative;
 	
-	}
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -50,4 +45,11 @@ body {
 		  display: flex;
 		  margin:20px;
 	  }
+	  .main {
+		max-width: 80%;
+		padding-right: 2em;
+		padding-left: 2em;
+		line-height: 1.375;
+
+	}
 	  
