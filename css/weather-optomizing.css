@@ -1,55 +1,15 @@
 
 
-body {
-	font-size: 1.5vw;
+.big{
+display: none;
 }
+@media screen and (min-width: 600px) {
+	.small{
+		display:none;
+	}
+	.big{
+		display:block;
+	}
 }
-.rain{
-	margin:0 1em 1em 0;
-			float: left;
-			width: 50%
-	}
-	.cloud{
-		margin: 0 1em 1em 0;
-			float: left;
-			width: 50%
-			
-	}
-	.fog{
-		margin: 0 1em 1em 0 ;
-		height: 300px;
-			float: left;
-			width: 50%
-			
-	}
 
-	.snow{
-		margin: 0 1em 1em 0;
-			float: left;
-			width: 50%
-			
-	}
-	.clear{
-		margin: 0 1em 1em 0;
-			float: left;
-
-			width: 50%
-	}
-	
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	  }
-	  li{
-		  display: flex;
-		  margin:20px;
-	  }
-	  .main {
-		max-width: 80%;
-		padding-right: 2em;
-		padding-left: 2em;
-		line-height: 1.375;
-
-	}
 	  
